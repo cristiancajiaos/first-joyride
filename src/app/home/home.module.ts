@@ -11,7 +11,7 @@ import { JoyrideModule } from 'ngx-joyride';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    JoyrideModule
+    JoyrideModule.forChild()
   ]
 })
 export class HomeModule { }
